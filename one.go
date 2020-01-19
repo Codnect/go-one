@@ -5,5 +5,5 @@ type One = interface{}
 type BaseFunctions interface {
 	Equals(other One) bool
 	HashCode() int
-	ToString() string
+	String() string
 }
